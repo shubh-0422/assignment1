@@ -4,7 +4,7 @@ namespace LenghtHelper
 {
     public class LengthHelper
     {       
-        public static int lengthFinder(string input)
+        public int lengthFinder(string input="")
         {
             return input.Length;
         }

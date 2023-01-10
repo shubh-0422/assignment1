@@ -9,8 +9,7 @@ namespace assignment1
         {
             LengthHelper LH = new LengthHelper();
             var a = "hello world";
-
-            Console.WriteLine(LengthHelper.lengthFinder(a));
+            Console.WriteLine(LH.lengthFinder(a));
         }
     }
 }
